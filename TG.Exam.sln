@@ -9,16 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.Exam.SQL", "TG.Exam.SQL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.Exam.WebMVC", "TG.Exam.WebMVC\TG.Exam.WebMVC.csproj", "{7A0BFFC4-47C7-4A8F-9EBC-D08FCFB3CBB9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instructions", "Instructions", "{712948C1-8E49-4F38-AAA1-DA18824BF13D}"
-	ProjectSection(SolutionItems) = preProject
-		TG.Exam.Algorithms.txt = TG.Exam.Algorithms.txt
-		TG.Exam.OOP.txt = TG.Exam.OOP.txt
-		TG.Exam.Refactoring.txt = TG.Exam.Refactoring.txt
-		TG.Exam.SQL.sql = TG.Exam.SQL.sql
-		TG.Exam.SQL.txt = TG.Exam.SQL.txt
-		TG.Exam.WebMVC.txt = TG.Exam.WebMVC.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.Exam.Refactoring", "TG.Exam.Refactoring\TG.Exam.Refactoring.csproj", "{D920ADC4-2CD5-40B0-9BAA-96CA5F153D2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.Exam.Algorithms", "TG.Exam.Algorithms\TG.Exam.Algorithms.csproj", "{F9F018F7-31BF-46E2-ACDD-8C6F500FEC58}"
