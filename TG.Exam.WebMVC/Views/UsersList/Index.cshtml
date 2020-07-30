@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TG.Exam.WebMVC.Models.UserDataModel>
+
+@{
+    ViewBag.Title = "Users List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Users List</h2>
+<p>
+    <a id="fetchAsync" class="btn btn-primary btn-large" href="javascript:void(0);">Get Users Async</a>
+</p>
+<div class="table-responsive">
+    <table class="table table-striped" id="usersTable">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.UserData.FirstName)</th>
+                <th>@Html.DisplayNameFor(model => model.UserData.LastName)</th>
+                <th>@Html.DisplayNameFor(model => model.UserData.Age)</th>
+                <th>@Html.DisplayNameFor(model => model.FetchMethod)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.UserData.FirstName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UserData.LastName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UserData.Age)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FetchMethod)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@Scripts.Render("~/bundles/usersList")
